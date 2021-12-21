@@ -1,0 +1,14 @@
+1.Create Branch (“test”)
+	git branch <test>
+
+2. Add new File to branch
+	git checkout test
+	git add newFile.txt
+	git commit
+
+3.Commit branch to Master
+	git push origin test 
+	git checkout master
+	git pull origin master
+	git merge test
+	git push origin master
